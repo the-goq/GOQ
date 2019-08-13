@@ -1,0 +1,115 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Get old questions</title>
+	<link rel="stylesheet" type="text/css" href="{% static 'website/style2.css' %}">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<!--fontaswosome-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+
+		<nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+			<div class="container">
+			
+				<div class="nav-logo"><a href="{% url 'index' %}" class="navbar-brand text-warning font-weight-bold">GET-OLD-QUESTIONS</a></div>
+		
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#rabi">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="rabi">
+					
+					
+					<ul class="navbar-nav text-center  ml-auto">
+						<li class="nav-item"><a href="{% url 'index' %}" class="nav-link text-white"> HOME </a>
+							
+						
+						</li>
+						<li class="nav-item"><a href="{% url 'index' %}#see" class="nav-link text-white"> SEE </a>
+							
+						</li>
+						
+						<li class="nav-item"><a href="{% url 'index' %}#+2" class="nav-link text-white"> +2 </a>
+							<!--<ul>
+								<li><a href="#+2">SCIENCE</a></li>
+								<li><a href="#+2">MANAGEMENT</a></li>
+								<li><a href="#+2">OTHER</a>
+								</li>
+							</ul> -->
+
+						
+							
+						</li>
+						<li class="nav-item"><a href="{% url 'index' %}#BACHELOR" class="nav-link text-white"> BACHELOR </a> <!--
+							<ul>
+								<li><a href="#BACHELOR">BScSIT</a></li>
+								<li><a href="#BACHELOR">BBA</a></li>
+								<li><a href="#BACHELOR">BHM</a></li>
+								
+							</ul>  -->
+
+							
+						</li>
+						<!--
+						<li class="nav-item"><a href="#ourteam" class="nav-link text-white"> ABOUT US</a> -->
+							
+						
+						<li class="nav-item"><a href="{% url 'index' %}#ct-us" class="nav-link text-white"> CONTACT US </a>
+							
+						</li>
+					</ul>
+			
+			
+				</div>
+			</div>
+		</nav>
+
+		{% block body %}
+
+		{% endblock %}
+
+
+<footer >
+       
+
+	<div id="footer" style="text-align: center;  background-color: rgba(11, 85, 90, 0.993);">
+		
+ 
+	  
+		<h1 style="color:white;">Get-Old-Questions</h1>
+		<p style="color:white;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum voluptatem officiis modi, mollitia<br> cupiditate quod aperiam atque. Fuga porro sunt quos, consequuntur nulla nostrum soluta blanditiis do<br> voluptatum cupiditate adipisci.
+		</p>
+		<h4>contact-info</h4>
+		<strong>Cell:9805753425,09873673</strong><br>
+		<strong>E-mail:getoldquestion@gmail.com</strong>
+
+		<hr>
+
+
+
+
+
+		<strong class="h">&copy; 2019 Get-Old-Questions.com</strong>
+
+	</div>
+
+
+</footer>
+
+</body>
+</html>

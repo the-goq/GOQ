@@ -1,0 +1,1126 @@
+.bgimg {
+	background-image:  url('images/zz.jpeg');
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	position: relative;
+	width: 100%;
+	height: 600px;
+	animation: slider 15s alternate-reverse infinite;
+	animation-delay: inherit;
+
+   
+}
+.bgo{
+background-color: rgba(0, 0, 0, 0.6);
+height: 600px;
+}
+ 
+ 
+/*------------slider animation for the home page-----------*/
+
+@keyframes slider {
+	0% {
+		background-image:  url('images/zz.jpeg');
+		background-size: 100% 100%;
+		background-attachment: fixed;
+		width: 100%;
+		height: 600px;
+	}
+	35% {
+		background-image: url('images/4.jpeg');
+		background-size: 100% 100%;
+		background-attachment: fixed;
+		width: 100%;
+		height: 600px;
+	}
+	75% {
+		background-image: url('images/55.jpeg');
+		background-size: 100% 100%;
+		background-attachment: fixed;
+		width: 100%;
+		height: 600px;
+	}
+	100% {
+		background-image: url('images/00.jpeg');
+		background-size: 100% 100%;
+		background-attachment: fixed;
+		width: 100%;
+		height: 600px;
+	}
+}
+/*------------slider animation for the home page-----------*/
+
+.nav-logo a {}
+/*----------- start--for aherf--*/
+
+@media (max-width: 1199.98px) {
+	...
+}
+
+@media (max-width: 991.98px) {}
+
+@media (max-width: 767.98px) {
+	.nav-logo a {
+		font-size: 18px;
+	}
+}
+
+@media (max-width: 575.98px) {
+	.nav-logo a {
+		font-size: 15px;
+	}
+}
+/*---------------end the querry aherf---------*/
+
+ul li {
+	margin-right: 3px;
+	text-align: center;
+	display: inline-block;
+}
+
+ul li a {
+	text-decoration: none;
+	color: white;
+	display: block;
+	text-decoration: none;
+}
+/*----------- start----mediaquerry- for naavbar--*/
+
+@media (max-width: 1199.98px) {}
+
+@media (max-width: 991.98px) {}
+
+@media (max-width: 767.98px) {
+	ul li a {
+		font-size: 10px;
+	}
+}
+
+@media (max-width: 575.98px) {
+	ul li a {
+		font-size: 8px;
+	}
+}
+/*---------------end the querry for navbar---------*/
+
+ul li a:hover {
+	background-color: black;
+	display: block;
+}
+
+ul li ul li {
+	display: none;
+	margin-right: 2px;
+}
+
+ul li:hover ul li {
+	display: block;
+	background-color: yello;
+}
+/*--------------------------------body text of home page---------------*/
+
+.body-text {}
+/*----------- start----mediaquerry- for naavbar--*/
+
+@media (max-width: 1199.98px) {
+	...
+}
+
+@media (max-width: 991.98px) {}
+
+@media (max-width: 767.98px) {}
+
+@media (max-width: 575.98px) {
+	.body-text h2 {
+		font-size: 12px;
+	}
+	.body-text h4 {
+		font-size: 8px;
+	}
+}
+/*---------------end the querry for navbar---------*/
+/*---------------------------------end the body home page---------------*/
+
+/*--------------------end navbar---------------*/
+/*---------------------animation from here begian----------------------*/
+
+
+
+
+
+/*------------------------------------section gap animation ---------------*/
+/*------------------------------------section gap animation ---------------*/
+
+   .a {
+	   width: 100px;
+	   
+	   color: rgba(83, 17, 17, 0.822);
+	   background-color: rgba(83, 17, 17, 0.822);
+	   -webkit-transition: width 2s;
+	   /* Safari */
+	   -webkit-transition-timing-function: linear;
+	   /* Safari */
+	   transition: width 0.5s;
+	   transition-timing-function: linear;
+	   z-index: -1;
+   }
+   
+   .a:hover {
+	   width: 100px;
+	   color: rgba(83, 17, 17, 0.822);
+	   z-index: -1;
+   }
+
+/*---------------------------------section gap animation ---------------*/
+/*------------------------------------section gap animation ---------------*/
+
+/*--------------gap section  --------------*/
+
+
+
+.a {
+		   background-color: rgba(83, 17, 17, 0.822);
+		   width: 100%;
+		   height: 15vh;
+	   }
+
+
+
+
+
+
+
+/*--------------------end the animation fo healdline heare-----------------*/
+
+.headerset {
+	padding-top: 300px;
+	box-sizing: border-box;
+	text-align: center;
+}
+
+
+
+.headerset h3 {
+	font-size: 22px;
+	font-family: 'Shadows Into Light', cursive;
+}
+
+.headerset h2 {
+	font-size: 42px;
+	font-weight: bold;
+	font-family: 'Unna', serif;
+}
+
+.headerset button {
+	font-size: none;
+	margin-bottom: 5px 5px 10px;
+	margin-top: 20px;
+	border-spacing: 10px;
+}
+
+.headerset h4 {
+	margin-top: 20px;
+	font-size: 15px;
+	font-family: 'Bilbo', cursive;
+}
+/*----------- start----mediaquerry----*/
+
+@media (max-width: 1199.98px) {}
+
+@media (max-width: 991.98px) {}
+
+@media (max-width: 767.98px) {
+	.headerset h2 {
+		font-size: 20px;
+		font-family: 'Shadows Into Light', cursive;
+	}
+	.headerset h1 {
+		font-size: 35px;
+		font-weight: bold;
+		font-family: 'Unna', serif;
+	}
+	.headerset h4 {
+		margin-top: 20px;
+		font-size: 12px;
+		font-family: 'Bilbo', cursive;
+	}
+}
+
+@media (max-width: 575.98px) {
+	.headerset {
+		padding-top: 200px;
+		box-sizing: border-box;
+	}
+	.headerset h2 {
+		font-size: 15px;
+		font-family: 'Shadows Into Light', cursive;
+	}
+	.headerset h2 {
+		font-size: 25px;
+		font-weight: bold;
+		font-family: 'Unna', serif;
+		text-transform: uppercase;
+	}
+	.headerset button {
+		font-size: none;
+		margin-bottom: 5px 5px 10px;
+		margin-top: 20px;
+		border-spacing: 10px;
+	}
+	.headerset h4 {
+		margin-top: 20px;
+		font-size: 10px;
+		font-family: 'Bilbo', cursive;
+	}
+}
+/*-----end the muerry-----------*/
+  h2{
+				   position: relative;
+				   animation: fade 3s 1;
+			   }
+			   @keyframes fade {
+				   0% {
+					   color: black;
+				   }
+				   
+				   30% {
+					   letter-spacing: 25px;
+					   color: red;
+				   }
+			   }
+
+
+
+
+   h2 {
+	   position: relative;
+	   
+	   animation: my 10s alternate-reverse infinite;
+   }
+   /* Standard syntax */
+   
+   @keyframes my {
+	   0% {
+		   top: 0px;
+		   color: lightgrey width: 100%;
+		   text-align: center;
+		   letter-spacing: 10px;
+		   opacity: 0;
+			
+	   }
+	   35% {
+		   top: 0px;
+		   color: whitesmoke;
+		   width: 100%;
+		   text-align: center;
+		   letter-spacing: 7px;
+		   opacity: 1;
+		   transition: rotateY(20deg)
+			
+	   }
+	   75% {
+		   top: 0px;
+		   color: white;
+		   width: 100%;
+		   text-align: center;
+		   letter-spacing: 4px;
+		   opacity: 2;
+		   transition: rotateY(50deg);
+		   
+		   }
+	   100% {
+		   top: 0px;
+		   color: yellow;
+		   width: 100%;
+		   text-align: center;
+		   letter-spacing: normal;
+		   opacity: 1;
+		   transition: rotateY(90deg);
+		  
+	   }
+   }
+
+
+
+
+
+/*-----------------h3 animatoin------------*/
+
+   .an {
+	   position: relative;
+	   -webkit-animation: m 5s 1;
+	   /* Safari 4.0 - 8.0 */
+	   animation: m 5s alternate-reverse infinite;
+   }
+   /* Standard syntax */
+   
+   @keyframes m {
+	   0% {
+		   top: 0px;
+		   color: green;
+		   width: 100%;
+		   text-align: center;
+		   opacity: 0.5;
+		   transition: rotateY(20deg);
+		   filter: blur(1px);
+		   letter-spacing: 1;
+	   }
+	   35% {
+		   color: blue;
+		   width: 100%;
+		   text-align: center;
+		   opacity: 1;
+		   transition: rotateY(90deg);
+		   
+		   letter-spacing: 2;
+	   }
+	   75% {
+		   color: white;
+		   width: 100%;
+		   text-align: center;
+		   opacity: 2;
+		   transition: rotateY(120deg);
+		   
+		   letter-spacing: 3;
+	   }
+	   100% {
+		   color: yellow;
+		   width: 100%;
+		   text-align: center;
+		   letter-spacing: normal;
+		   opacity: 0.5;
+		   transition: rotateY(180deg);
+		   filter: blur(2px);
+		   
+		   letter-spacing: 1;
+	   }
+}
+
+/*------------animation  for  headline 4------------------*/
+
+   h4 {
+	   position: relative;
+	   -webkit-animation: mym 5s 1;
+	   /* Safari 4.0 - 8.0 */
+	   animation: mym 5s alternate-reverse infinite;
+   }
+   /* Standard syntax */
+   
+   @keyframes mym {
+	   0% {
+		   top: 0px;
+		   color: black;
+		   width: 300px;
+		   text-align: center;
+		   letter-spacing: normal;
+	   }
+	   35% {
+		   top: 0px;
+		   color: whitesmoke;
+		   width: 100%;
+		   text-align: center;
+		   letter-spacing: 2px;
+	   }
+	   75% {
+		   top: 0px;
+		   color: ;
+		   width: 100%;
+		   text-align: center;
+		   letter-spacing: 3px;
+	   }
+	   100% {
+		   top: 0px;
+		   color: darkred;
+		   width: 100%;
+		   text-align: center;
+		   letter-spacing: 5px;
+	   }
+   }
+
+/*--------------animation for the headline6---------------------------------*/
+
+			   h6 {
+					   position: relative;
+					   -webkit-animation: mymove 5s infinite;
+					   /* Safari 4.0 - 8.0 */
+					   animation: mymove 5s infinite alternate-reverse;
+				   }
+				   /* Standard syntax */
+				   
+				   @keyframes mymove {
+					   0% {
+						   top: 0px;
+						   left: 0px;
+						   color: white
+					   }
+					   25% {
+						   top: 1px;
+						   left: 1px;
+						   color: blue;
+					   }
+					   50% {
+						   top: 2px;
+						   left: 5px;
+						   color: yellow;
+					   }
+					   75% {
+						   top: 2px;
+						   left: 10px;
+						   color: pink
+					   }
+					   100% {
+						   top: 1px;
+						   left: 10px;
+						   color: whitesmoke;
+					   }
+				   }
+			   
+			 
+
+/*-----------------------end the headline 6 animation form her-------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*...........SEE........*/
+
+.img {
+	background-image: url('images/aa.jpg');
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	width: 100%;
+	height: 740px;
+}
+
+.ourservices {
+	padding: 100px 0px 60px;
+	height: 700px;
+}
+
+.ourservices h1 {
+	font-weight: bold;
+	font-size: 50px;
+}
+
+.rowsetting {
+	margin: 50px 0px !important;
+}
+
+.rowsetting h2 {
+	margin-top: 20px;
+	font-weight: bold;
+	font-size: 40px;
+}
+
+.rowsetting h6 {
+	font-family: 'Herr Von Muellerhoff', cursive;
+}
+
+.imgsetting {
+	border-radius: 50%;
+	height: 100px;
+	width: 100px
+}
+
+.fa-file-pdf-o {
+	margin-top: 20px;
+}
+
+.fa-list-alt {
+	margin-top: 20px;
+}
+
+.fa-film {
+	margin-top: 20px;
+}
+
+..rowsetting p {
+	text-transform: uppercase;
+	font-family: 'Herr Von Muellerhoff', cursive;
+	text-emphasis-color: white;
+}
+/*----------- start----mediaquerry of see----*/
+
+@media (max-width: 1199.98px) {}
+
+@media (max-width: 991.98px) {}
+
+@media (max-width: 767.98px) {
+	.ourservices h1 {
+		font-weight: bold;
+		font-size: 38px;
+	}
+	p {
+		font-size: 15px;
+	}
+	.rowsetting {
+		margin: 50px 0px !important;
+	}
+	.rowsetting h2 {
+		margin-top: 20px;
+		font-weight: bold;
+		font-size: 30px;
+		color: black;
+	}
+	.rowsetting h6 {
+		font-family: 'Herr Von Muellerhoff', cursive;
+		font-size: 13px;
+	}
+	.rowsetting p {
+		text-transform: uppercase;
+		font-family: 'Herr Von Muellerhoff', cursive;
+		color: white;
+	}
+}
+
+@media (max-width: 575.98px) {
+	.img {
+		background-image: url('images/aa.jpg');
+		background-size: 100% 100%;
+		width: 100%;
+		height: 550px;
+	}
+	.ourservices {
+		padding: 70px 0px 30px;
+	}
+	.ourservices h1 {
+		font-weight: bold;
+		font-size: 25px;
+	}
+	p {
+		font-size: 10px;
+	}
+	.rowsetting {
+		margin: 50px 0px !important;
+	}
+	.rowsetting h2 {
+		margin-top: 20px;
+		font-weight: bold;
+		font-size: 20px;
+		color: black;
+	}
+	.rowsetting h6 {
+		font-family: 'Herr Von Muellerhoff', cursive;
+		font-size: 10px;
+	}
+	.imgsetting {
+		border-radius: 50%;
+		height: 100px;
+		width: 100px
+	}
+	.fa-file-pdf-o {
+		margin-top: 20px;
+	}
+	.fa-list-alt {
+		margin-top: 20px;
+	}
+	.fa-film {
+		margin-top: 20px;
+	}
+	.rowsetting p {
+		text-transform: uppercase;
+		font-family: 'Herr Von Muellerhoff', cursive;
+	}
+}
+/*-----end the muerry---- of see-------*/
+/*..........+2........*/
+
+.images1 {
+	background-image: url('images/b3.jpeg');
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	width: 100%;
+	height: 700px;
+}
+
+.opacity {
+	background-color: rgba(0, 0, 0, 0.5);
+}
+/*----------- start----mediaquerry- +2--*/
+
+@media (max-width: 1199.98px) {
+	...
+}
+
+@media (max-width: 991.98px) {}
+
+@media (max-width: 767.98px) {}
+
+@media (max-width: 575.98px) {
+	/*..........+2........*/
+	.images1 {
+		background-image: url('images/zz.jpeg');
+		background-size: 100% 100%;
+		width: 100%;
+		height: 550px;
+	}
+	/*---- end see------*/
+}
+/*---------------end the querry for +2----------*/
+/*---------------------------data collapse css fo subject of +2-------------------*/
+
+.img10 {
+	background-image: url('images/bg2.jpg');
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	width: 100%;
+	height: 550px;
+}
+
+.image11 {
+	background-image: url('images/bg2.jpg');
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	width: 100%;
+	height: 1px;
+}
+/*....our team...*/
+
+.ourteam {
+	height: 300px;
+	padding: 100px 0px 60px;
+	width: 100%;
+}
+
+.ourteam h2 {
+	font-size: 30px;
+	font-weight: bold;
+	color: white;
+}
+
+.teamsetting {
+	margin-top: 70px !important;
+}
+
+.teamsetting h5 {
+	color: black;
+	font-weight: bold;
+	font-size: 12px;
+	text-transform: lowercase;
+	font-family: 'Tangerine', cursive;
+	margin-top: 65px;
+}
+
+.colum-style button {
+	font-size: none;
+	margin-bottom: 5px 5px 5px;
+	margin-top: 10px;
+	border-spacing: 3px;
+}
+
+.column-item button {
+	font-size: none;
+	margin-bottom: 5px 5px 5px;
+	margin-top: 10px;
+	border-spacing: 3px;
+}
+
+.column-button button {
+	font-size: none;
+	margin-bottom: 5px 5px 5px;
+	margin-top: 10px;
+	border-spacing: 3px;
+}
+/*----------- start----mediaquerry- bachelor--*/
+
+@media (max-width: 1199.98px) {
+	...
+}
+
+@media (max-width: 991.98px) {}
+
+@media (max-width: 767.98px) {
+	.teamsetting h5 {
+		color: black;
+		font-weight: bold;
+		font-size: 10px;
+		text-transform: lowercase;
+		font-family: 'Tangerine', cursive;
+		margin-top: 65px;
+	}
+}
+
+@media (max-width: 575.98px) {
+	.img10 {
+		background-image: url('images/bg2.jpg');
+		background-size: 100% 100%;
+		background-attachment: fixed;
+		width: 100%;
+		height: 340px;
+	}
+	.image11 {
+		background-image: url('images/bg2.jpg');
+		background-size: 100% 100%;
+		background-attachment: fixed;
+		width: 100%;
+		height: 340px;
+	}
+	.ourteam h2 {
+		font-size: 20px;
+		font-weight: bold;
+		color: white;
+		margin-top: 0px;
+	}
+	p {
+		margin-top: 0;
+		margin-bottom: 1rem;
+		font-size: 10px;
+	}
+	.teamsetting h4 {
+		font-size: 12px;
+	}
+	.teamsetting h5 {
+		color: black;
+		font-weight: bold;
+		font-size: 7px;
+		text-transform: lowercase;
+		font-family: 'Tangerine', cursive;
+		margin-top: 25px;
+	}
+}
+/*------------end bachelor-----------*/
+/*------------- start---- css--- for---index.html--------------------------*/
+
+.column-item a i {
+	margin-top: 10px;
+}
+
+.column-data a i {
+	margin-top: 10px;
+}
+/*----------------------end css for index.html--------------------------------*/
+/*--------------------------end data collase css of science--------------------------*/
+/*------bachelor----*/
+
+.img-image {
+	background-image: url('images/aaa.jpg');
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	width: 100%;
+	height: 700px;
+}
+/*----------- start----mediaquerry- bachelor--*/
+
+@media (max-width: 1199.98px) {
+	...
+}
+
+@media (max-width: 991.98px) {}
+
+@media (max-width: 767.98px) {}
+
+@media (max-width: 575.98px) {
+	/*------bachelor----*/
+	.img-image {
+		background-image: url('images/aaa.jpg');
+		background-size: 100% 100%;
+		background-attachment: fixed;
+		width: 100%;
+		height: 550px;
+	}
+	/*------------end bachelor-----------*/
+}
+/*---------------end the querry for tbachelor----------*/
+/*----------end bachelor---------------------------------------------->
+
+
+/*....our team...*/
+
+.ourteam {
+	height: 650px;
+	padding: 100px 0px 60px;
+	width: 100%;
+}
+
+.ourteam h1 {
+	font-size: 50px;
+	font-weight: bold;
+}
+
+.teamsetting {
+	margin-top: 70px !important;
+}
+
+.teamsetting h5 {
+	font-weight: bold;
+	font-size: 12px;
+	text-transform: lowercase;
+	font-family: 'Tangerine', cursive;
+}
+/*----contacts us-----*/
+
+.image {
+	background-image: url('images/ipne.jpeg');
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	width: 100%;
+	height: 600px;
+	animation: slider1 15s alternate-reverse infinite;
+}
+
+.cfo{
+   height: 600px;
+   background-color: rgba(0, 0, 0, 0.6);
+
+}
+/*--------------------------animatio for the contact backgound image slider------------*/
+
+@keyframes slider1 {
+	0% {
+		background-image: url('images/zz.jpeg');
+		background-size: 100% 100%;
+		background-attachment: fixed;
+		width: 100%;
+		height: 600px;
+		@media (max-width: 575.98px) {
+			width: 100%;
+			height: 600px;
+		}
+	}
+	35% {
+		background-image: url('images/4.jpeg');
+		background-size: 100% 100%;
+		background-attachment: fixed;
+		width: 100%;
+		height: 600px;
+	}
+	75% {
+		background-image: url('images/55.jpeg');
+		background-size: 100% 100%;
+		background-attachment: fixed;
+		width: 100%;
+		height: 600px;
+	}
+	100% {
+		background-image: url('images/00.jpeg');
+		background-size: 100% 100%;
+		background-attachment: fixed;
+		width: 100%;
+		height: 600px;
+	}
+}
+/*------------slider animation for  contact form sesseion-----------*/
+
+.contact {
+	height: 560px;
+	padding: 100px 0px 60px;
+	width: 100%;
+}
+
+.contact h1 {
+	font-weight: bold;
+	font-size: 50px;
+	color: white;
+}
+
+.contact-form {
+	box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.5);
+	margin: 50px auto;
+	width: 350px;
+	text-align: center;
+}
+
+.contact-form h2 {
+	background: #efefef;
+	margin: 0;
+	padding: 10px;
+}
+
+.contact-form input {
+	display: block;
+	width: 90%;
+	margin: 10px auto;
+}
+
+.contact-form textarea {
+	width: 90%;
+	margin: 5px auto;
+	padding: 10px;
+	height: 80px;
+}
+
+.contact-form button {
+	font-size: none;
+	margin-bottom: 5px 5px 10px;
+	margin-top: 10px;
+	border-spacing: 10px;
+}
+
+btn-btn {
+	cursor: pointer;
+	width: 150px;
+	important;
+	margin-left: 18px;
+	!mportant;
+}
+/*----------- start----mediaquerry- for contact form---*/
+
+@media (max-width: 1199.98px) {
+	...
+}
+
+@media (max-width: 991.98px) {}
+
+@media (max-width: 767.98px) {
+	.contact h1 {
+		font-weight: bold;
+		font-size: 38px;
+		color: white;
+	}
+	.contact-form {
+		box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.5);
+		margin: 50px auto;
+		width: 350px;
+		text-align: center;
+	}
+	.contact-form h2 {
+		background: #efefef;
+		margin: 0;
+		padding: 10px;
+		font-size: 2p0x;
+	}
+}
+
+@media (max-width: 575.98px) {
+	.image {
+		background-image: url('images/ipne.jpeg');
+		background-size: 100% 100%;
+		background-attachment: fixed;
+		width: 100%;
+		height: 550px;
+	}
+	.contact {
+		height: 560px;
+		padding: 100px 0px 60px;
+		width: 100%;
+	}
+	.contact h1 {
+		font-weight: bold;
+		font-size: 20px;
+		color: white;
+	}
+	.contact-form {
+		box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.5);
+		margin: 50px auto;
+		width: 225px;
+		text-align: center;
+		height: 340px;
+	}
+	.contact-form h2 {
+		background: #efefef;
+		margin: 0;
+		padding: 10px;
+	}
+	.contact-form input {
+		display: block;
+		width: 90%;
+		margin: 10px auto;
+	}
+	.contact-form textarea {
+		width: 90%;
+		margin: 5px auto;
+		padding: 10px;
+		height: 80px;
+	}
+	.contact-form button {
+		font-size: none;
+		margin-bottom: 5px 5px 10px;
+		margin-top: 3px;
+		border-spacing: 5px;
+		font-size: 12px;
+	}
+	btn-btn {
+		cursor: pointer;
+		width: 150px;
+		important;
+		margin-left: 18px;
+		!mportant;
+	}
+}
+/*---------------end the querry for the contact forom----------*/
+/*------------social icon and dATA---------------*/
+
+}
+
+@media (max-width: 991.98px) {
+	@media (max-width: 767.98px) {
+		.footer h6 {
+			line-height: 15px;
+			font-size: 13px;
+		}
+		@media (max-width: 575.98px) {
+			.data-style p {
+				font-size: 8px;
+			}
+		}
+		/*-----------------------footer---------------*/
+		s
+
+
+
+
+				   
+
+
+   /*--------------css for the footer asection-------------*/
+	
+		   #footer {
+			   background-color: rgba(11, 85, 90, 0.993);
+			   width: 100%;
+			   height: 42vh;
+			   
+			   padding-top: 20px;
+		   }
+		   
+		  .aa h1 {
+			   color: white;
+			   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+		   }
+		   
+		   .aa p {
+			   font-size: 12px;
+			   color: white;
+		   }
+		   
+		   .w {
+			   border: 1px;
+			   border-color: brown;
+			   background-color: brown;
+		   }
+		   
+		   hr {
+			   display: block;
+			   margin-top: 0.5em;
+			   margin-bottom: 0.5em;
+			   margin-left: auto;
+			   margin-right: auto;
+			   border-style: inset;
+			   border-width: 1px;
+		   }
+		   aa strong{
+			   font-size: 12px;
+
+		   }
+		  .h{
+			   font-size: 15px;
+			   font-weight: bold;
+		   }
+	
+
+
