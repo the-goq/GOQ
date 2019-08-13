@@ -1,0 +1,91 @@
+{% extends 'website/base.html' %}
+{% load static %}
+
+
+{% block title %} Files {% endblock %}
+      
+    {% block body %}
+<link rel="stylesheet" type="text/css" href="{% static 'website/msg.css' %}">
+
+<div class="container">
+      <div class = 'row' style="margin-top: 65px" >
+        
+        <div class= 'col-sm' style="padding-left: 25%; padding-right: 25%; text-align: center;" >
+        	<p><center><h3 style ="background-color:orange; color:white">Files</h3></center></p>
+          {% for file in files %}
+        <article class="media content-section" style="margin-top: 10px">
+          <div class="media-body">
+            <div class="article-metadata">
+
+              
+              <p class="text-muted">{{ file.faculty }} - {{ file.semester }} sem 
+              <small class="text-muted">{{ file.date_posted|date:"F d, Y" }}</small></p>
+            </div>
+            <h5><a style="color: #42bff4" class="article-title" href="{% url 'detail' file.id %}">{{ file.name }}</a></h5>
+            
+               
+          </div>
+              }
+        </article>
+        {% endfor %}
+       
+
+	
+
+    {% if is_paginated %}
+
+      {% if page_obj.has_previous %}
+        <a class="btn btn-outline-info mb-4" href="?page=1">First</a>
+        <a class="btn btn-outline-info mb-4" href="?page={{ page_obj.previous_page_number }}">Previous</a>
+      {% endif %}
+
+      {% for num in page_obj.paginator.page_range %}
+
+        {% if page_obj.number == num %}
+          <a class='btn btn-info mb-4' href="?page={{ num }}">{{ num }}</a>
+
+        {% elif num > page_obj.number|add:'-3' and num < page_obj.number|add:'3' %}
+          <a class= 'btn btn-outline-info mb-4' href="?page={{ num }}"> {{ num }} </a>
+
+        {% endif %}
+
+      {% endfor %}
+
+      {% if page_obj.has_next %}
+        <a class="btn btn-outline-info mb-4" href="?page={{ page_obj.next_page_number }}">next</a>
+        <a class="btn btn-outline-info mb-4" href="?page={{ page_obj.paginator.num_pages }}">Previous</a>
+      {% endif %}
+
+
+    {% endif %}
+     </div>
+     </div>
+ </div>
+
+ <div class="container">
+
+  <a href="{% url 'add-sub' %}">Add Subject Details</a>  <br>
+  <a href="{% url 'add-ques' %}">Add Questions</a> <br>
+
+  <a href="{% url 'science-11' %}">Science 11 Questions</a> <br>
+  <a href="{% url 'science-12' %}">Science 12 Questions</a> <br>
+  <a href="{% url 'Commerce-11' %}">Commerce 11 Questions</a> <br>
+  <a href="{% url 'Commerce-12' %}">Commerce 11 Questions</a> <br>
+
+  <a href="{% url 'csit-1' %}">CSIT 1st sem Questions</a> <br>
+  <a href="{% url 'csit-2' %}">CSIT 2nd sem Questions</a> <br>
+  <a href="{% url 'csit-3' %}">CSIT 3rd sem Questions</a> <br>
+  <a href="{% url 'csit-4' %}">CSIT 4th sem Questions</a> <br>
+  <a href="{% url 'csit-5' %}">CSIT 5th sem Questions</a> <br>
+  <a href="{% url 'csit-6' %}">CSIT 6th sem Questions</a> <br>
+  <a href="{% url 'csit-7' %}">CSIT 7th sem Questions</a> <br>
+  <a href="{% url 'csit-8' %}">CSIT 8th sem Questions</a> <br>
+
+  </div>
+
+
+
+{% endblock %}
+
+
+

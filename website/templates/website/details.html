@@ -1,0 +1,58 @@
+{% extends 'website/base.html' %}
+{% load static %}
+
+{% block title %} Details {% endblock %}
+
+{% block body %}
+
+	<link rel="stylesheet" type="text/css" href="{% static 'website/msg.css' %}">
+
+<div class="container" >
+      <div class = 'row' style="margin-top: 65px" >
+        
+        <div class= 'col-sm' style="padding-left: 25%; padding-right: 25%; text-align: center;" >
+        	<p><center><h3 style ="background-color:orange; color:white">Files</h3></center></p>
+          
+        <article class="media content-section" style="">
+          <div class="media-body">
+            <div class="article-metadata">
+
+              
+              <a class="mr-2" href="#">{{ file.level }}</a>
+              <small class="text-muted">{{ file.date_posted|date:"F d, Y" }}</small>
+            </div>
+            <h5><a class="article-title" href="#">{{ file.name }}</a></h5>
+            <p class="article-content">{{ file.faculty }} - {{ file.semester }} semester </p>
+
+           {% if request.user.is_authenticated %}
+               
+                  <form action="{% url 'delete-file' file.id %}" method="POST" style="display: inline;">
+                    {% csrf_token %}
+                    <input type="hidden" name="fle)id" value="{{ file.id }}" />
+                    <button type="submit" class="btn btn-danger btn-sm">Delete
+                      <span class="glyphicon glyphicon-trash"></span>
+                    </button>
+                  </form>
+
+              {% endif %}
+
+
+            <a href="{{ file.file.url }}" download="{{ file.name }}">
+				 <span text-sm >Download</span>
+			</a>
+
+
+				            
+              
+          </div>
+        </article>
+       
+
+
+
+
+
+
+
+
+{% endblock %}

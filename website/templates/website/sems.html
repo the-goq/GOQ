@@ -1,0 +1,84 @@
+{% extends 'website/base.html' %}
+{% load static %}
+
+{% block title %} Semester {% endblock %}
+      
+    {% block body %}
+
+			<link rel="stylesheet" type="text/css" href="css/stylesub.css" >
+
+
+<div class="img">
+  <div class="container text-center" >
+   
+      <div class="row " style="margin-top: 50px;" >
+        
+
+
+        <div class="col-sm-3 mb-3 border bg-secondary mt-5" style="display: table-cell; vertical-align: middle; text-align: center">
+        <a href="{% url 'csit-1' %}"><i class="far fa-file-pdf fa-2x"></i></i>
+        <h4 style="color: black" >SEM-1</h4>
+        
+      </a>
+         
+      </div>
+      <div class="col-sm-3 mb-3 border bg-warning mt-5">
+        
+        <a href="{% url 'csit-2' %}"><i class="far fa-file-pdf fa-2x"></i></i>
+        <h4 style="color: black" > SEM-2</h4>
+        </a>
+        
+      </div>
+      <div class="col-sm-3 mb-3 border bg-secondary mt-5">
+        
+        <a href="{% url 'csit-3' %}"><i class="far fa-file-pdf fa-2x"></i></i>
+        <h4 style="color: black" >SEM-3</h4>
+        
+       </a>
+      </div>  
+        <div class="col-sm-3 mb-3 border bg-warning mt-5">
+        
+        <a href="{% url 'csit-4' %}"><i class="far fa-file-pdf fa-2x"></i></i>
+        <h4 style="color: black" >SEM-4</h4>
+        </a>
+        
+      </div>           
+                </div>
+                      <div class="row">
+        <div class="col-sm-3 mb-3 border bg-secondary">
+        
+        <a href="{% url 'csit-5' %}"><i class="far fa-file-pdf fa-2x"></i></i>
+        <h4 style="color: black" >SEM-5</h4>
+        </a>
+        
+        </div>
+
+      <div class="col-sm-3 mb-3 border bg-warning">
+        
+        <a href="{% url 'csit-6' %}"><i class="far fa-file-pdf fa-2x"></i></i>
+        <h4 style="color: black" >SEM-6</h4>
+        </a>
+        
+        </div>
+     <div class="col-sm-3 mb-3 border bg-secondary">
+        
+        <a href="{% url 'csit-7' %}"><i class="far fa-file-pdf fa-2x"></i></i>
+        <h4 style="color: black" >SEM-7</h4>
+        </a>
+        
+        </div>
+          <div class="col-sm-3 mb-3 border bg-warning">
+        
+        <a href="{% url 'csit-8' %}"><i class="far fa-file-pdf fa-2x"></i></i>
+        <h4 style="color: black" >SEM-8</h4>
+        </a>
+        
+        </div>
+                    </div>
+
+</div>
+
+
+</div>
+	
+{% endblock %}

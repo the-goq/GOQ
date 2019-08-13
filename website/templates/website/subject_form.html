@@ -1,0 +1,32 @@
+<!-- Form to add subject information -->
+
+{% extends 'website/base.html' %}
+{% block title %} Add file {% endblock %}
+{% block album_active %} active {% endblock %}
+ 
+{% block body %}
+
+<div class="container-fluid" style="margin-top: 85px; margin-left: 35px">
+    <div class="row">
+        <div class="col-sm-12 col-md-7">
+            <p><center><h3 style ="background-color:Orange; color:white">ADD new Files</h3></center></p>
+            <div class="panel-body">
+
+                <form class= "form-horizontal" action="" method="post" enctype="multipart/form-data">
+                    {% csrf_token %}
+                    {% include 'website/form-template.html' %}
+                    <div class="form-group">
+                        <div class="col-sm-offset-2 col-sm-10">
+                            <button type="submit" class="btn btn-success">Submit</button>
+
+                        </div>
+                    </div>
+
+                </form>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock %}
